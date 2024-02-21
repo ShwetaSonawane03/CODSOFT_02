@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.calculator{
+    border: none;
+    border-radius: 20px;
+    padding: 20px;  
+    background-color: white;
+}
+input{
+    width: 350px;
+    padding: 24px;
+    margin: 10px;
+    border: none;
+    text-align: right;
+    font-size: 3rem;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    padding: 12px 10px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;  
+}
+button:hover{
+    background-color: rgb(192, 224, 253);
+}
+.operators{
+    color: rgb(92, 92, 255);
+}
+.equalbtn{
+    background-color: rgb(155, 205, 252);
+}
